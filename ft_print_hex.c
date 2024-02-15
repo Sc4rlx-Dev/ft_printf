@@ -6,7 +6,7 @@
 /*   By: oer-raou <oer-raou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 12:29:34 by oer-raou          #+#    #+#             */
-/*   Updated: 2024/02/11 09:24:36 by oer-raou         ###   ########.fr       */
+/*   Updated: 2024/02/15 15:50:02 by oer-raou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,6 @@ int	ft_print_hex(unsigned int num, const char format)
 	if (num == 0)
 		return (write(1, "0", 1));
 	else
-		ft_put_hex(num, format);	
+		ft_put_hex(num, format);
 	return (ft_hex_len(num));
 }

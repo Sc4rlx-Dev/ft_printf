@@ -6,7 +6,7 @@
 /*   By: oer-raou <oer-raou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 12:29:47 by oer-raou          #+#    #+#             */
-/*   Updated: 2024/02/07 18:20:51 by oer-raou         ###   ########.fr       */
+/*   Updated: 2024/02/15 15:31:04 by oer-raou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,8 +45,9 @@ int	ft_printf(const char *str, ...)
 	int		i;
 	va_list	args;
 	int		print_length;
+
 	if (!str)
-		return -1;
+		return (-1);
 	i = 0;
 	print_length = 0;
 	va_start(args, str);
